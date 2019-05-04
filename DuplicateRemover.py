@@ -12,7 +12,6 @@ files = sorted(files, key=lambda fn: os.path.getatime(os.path.join(dir_path, fn)
 hash_table = dict()
 duplicates =[]
 
-
 for filename in files:
     file_path = os.path.join(dir_path, filename)
 
